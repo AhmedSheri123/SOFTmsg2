@@ -1,0 +1,435 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block heads %}
+<meta name="description" content="{% trans "Clear answers to the most frequently asked questions about our services to help you get information quickly and easily." %}">
+{% endblock heads %}
+
+{% block sheri %}
+<!-- FAQ reviews -->
+<div class="py-5 px-2 px-md-4 ">
+    <h1 class="text-center py-4 ">{% trans "Frequently asked questions" %}</h1>
+    <div class="accordion accordion-flush mx-auto" id="accordionFlushExample" style="max-width: 1080px;">
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "How can I get started with designing my website?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "You can get started by filling out the inquiry form or booking a consultation with us through the website, and we will contact you to discuss your needs." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "How much does a website design cost?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "The cost of our services can vary based on the complexity and scope of your project. We offer personalized quotes after discussing your specific requirements. We're committed to providing competitive pricing while ensuring high-quality work." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne3" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "How long does it take to complete a web development project?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Project timelines vary depending on the project's complexity and size. Simple websites can be completed in a few weeks, while more complex projects may take several months. We'll provide you with a detailed project timeline during our initial consultation." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne4" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Do you provide website maintenance and support after the project is completed?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we offer ongoing website maintenance and support services. We can help with updates, security enhancements, content management, and troubleshooting to ensure your website continues to perform optimally." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne5" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can you redesign an existing website?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Absolutely! We specialize in website redesigns and can give your outdated or underperforming website a fresh and modern look while improving functionality and user experience." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne6" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I add custom features to my website?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we can customize the website to suit your specific needs, such as integrating social media, booking systems, or advanced functionalities." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne7" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I modify my website after it’s designed?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we offer website maintenance and regular updates to allow you to modify the content and design as needed." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne8" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Do you design e-commerce websites?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we provide comprehensive e-commerce website solutions, including store setup, payment gateways, and inventory management." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne9" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Is the website mobile-friendly?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, all the websites we design are responsive, meaning they will look great on mobile phones and tablets." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne10" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Do you provide web hosting services?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we offer secure and reliable web hosting services, as well as domain registration." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne11" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Do you offer SEO (Search Engine Optimization) services?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne11" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we implement best SEO practices in our website designs to ensure better search engine rankings. We also offer ongoing SEO services." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne12" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I manage the website myself after it is delivered?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne12" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we make sure the website is easy to manage. We also provide training on how to manage your website's content after delivery." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne13" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Do you offer branding services (logos, colors, fonts)?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne13" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we assist in designing a complete brand identity, including logos, colors, and fonts that align with your business identity." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne14" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Will my website be secure?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne14" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we use the latest security technologies to ensure your website is protected from threats and hacks. We also offer SSL certificates for additional security." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne15" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I add an online store to my website?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne15" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we can integrate a fully functional e-commerce store into your website, including product management, secure payment options, and shipping configurations." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne16" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I choose a custom design?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne16" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we offer customized designs based on your specific vision and needs for your website." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne17" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Do you offer technical support after the website is delivered?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne17" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we provide ongoing technical support to ensure the website is running smoothly and address any issues after delivery." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne18" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Do you offer regular website updates?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne18" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we offer maintenance and regular updates to keep your website up-to-date, add new features, and ensure security." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne19" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I integrate my website with platforms like Facebook or Instagram?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne19" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we can integrate your website with social media platforms such as Facebook, Instagram, Twitter, and more to increase engagement." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne20" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Do you offer digital marketing services after the website is designed?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne20" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we can help with digital marketing strategies, including Google Ads, social media marketing, and email marketing." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne21" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Is the website SEO-friendly?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne21" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "All websites we design are SEO-friendly to ensure better visibility on search engines." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne22" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Do you design multilingual websites?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne22" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we provide multilingual website design services to help expand your reach into different markets." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne23" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I add a blog section to my website?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne23" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we can add a dedicated blog section for posting articles and engaging with your website visitors." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne24" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "How can I track the progress of my website?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne24" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "We provide regular updates on the progress of your website via email or scheduled meetings." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne25" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I add a booking system to my website?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne25" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we can integrate a booking system into your website to make it easier for customers to schedule appointments with you." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne26" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "How can I pay for the website design services?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne26" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "We offer flexible payment options via credit cards, bank transfers, and online payment gateways." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne27" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I add other services like online payments or system integrations?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne27" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we can integrate any features you need, such as online payment systems or integrations with other platforms." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne28" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Do you offer easy-to-use website designs?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne28" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we ensure the website design is simple and easy to navigate so visitors can interact with your site seamlessly." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne29" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I add interactive pages to my website?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne29" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we can add interactive pages such as surveys, comments, or promotional offers." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne30" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I add news or announcements sections to my website?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne30" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we can add sections for news or announcements to keep your audience informed." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne31" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "Can I add a photo or video gallery to my website?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne31" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "Yes, we can add a photo and video gallery to showcase your services or products in a visually appealing way." %}
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item p-4 rounded-4 mb-3 border-0 shadow">
+            <h2 class="accordion-header">
+                <div class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne32" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {% trans "How can I contact you?" %}
+                </div>
+            </h2>
+            <div id="flush-collapseOne32" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    {% trans "You can contact us through the contact form on the website, via live chat, or by email." %}
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <p class="text-center">{% trans "Can't find your answer?" %} <a href="/{{LANGUAGE_CODE}}/#contact-us">{% trans "Book a call" %}</a> {% trans "and let's talk!" %}</p>
+</div>
+<!-- end -->
+{% endblock sheri %}
