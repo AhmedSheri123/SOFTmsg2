@@ -759,14 +759,14 @@
                 </label>
                 {{form.phone_number}}
             </div>
-            <div class="mb-3">
+            {% comment %} <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">
                     <i class="fa-solid fa-circle-question"></i>
                     {% trans "Project Title" %}
                 </label>
                 {{form.project_title}}
                 <div class="form-text">{% trans "Provide a concise title that accurately describes your project." %}</div>
-            </div>
+            </div> {% endcomment %}
 
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">
@@ -786,14 +786,14 @@
 
                     <div class="form-text">{% trans "Provide examples or links to designs and websites you like." %}</div>
             </div>
-            <div class="mb-3">
+            {% comment %} <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">
                     <i class="fa-solid fa-wallet"></i>
                     {% trans "Expected budget" %}
                 </label>
                 {{form.expected_budget}}
                 <div class="form-text">{% trans "The planned amount of money to cover project expenses." %}</div>
-            </div>
+            </div> {% endcomment %}
             <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input shadow" required id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">{% trans "By sending this form I confirm that I have read and accept the Privacy Policy" %}</label>
