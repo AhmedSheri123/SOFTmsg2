@@ -5,6 +5,7 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('portfolio', views.portfolio, name='portfolio'),
     path('FAQ', views.FAQ, name='FAQ'),
+    # path('PrivacyPolicy', views.PrivacyPolicy, name='PrivacyPolicy'),
     path('Contact', views.Contact, name='Contact'),
     path('SubscribeToUs', views.SubscribeToUs, name='SubscribeToUs'),
     path('Services/PatientManagement', views.PatientManagement, name='PatientManagement'),

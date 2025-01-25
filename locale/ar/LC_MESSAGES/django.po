@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-22 07:35+0300\n"
+"POT-Creation-Date: 2025-01-25 11:45+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: .\pages\forms.py:12
 msgid "write your name..."
@@ -30,10 +31,6 @@ msgstr "name@example.com"
 msgid "e.g., +1 234 567 890"
 msgstr "على سبيل المثال، +1 234 567 890"
 
-#: .\pages\forms.py:15
-msgid "Enter your project title here"
-msgstr "أدخل عنوان مشروعك هنا"
-
 #: .\pages\forms.py:16
 msgid "How can our team help you?"
 msgstr "كيف يمكن لفريقنا مساعدتك؟"
@@ -42,21 +39,17 @@ msgstr "كيف يمكن لفريقنا مساعدتك؟"
 msgid "https://example.com"
 msgstr "https://example.com"
 
-#: .\pages\forms.py:18
-msgid "Enter the estimated budget amount"
-msgstr "أدخل مبلغ الميزانية التقديرية"
-
 #: .\pages\models.py:7 .\templates\pages\index.html:744
 msgid "Full Name"
 msgstr "الاسم الكامل"
 
-#: .\pages\views.py:30
+#: .\pages\views.py:33
 msgid ""
-"Your message has been sent successfully. You will be replied after reviewing"
-" the details."
+"Your message has been sent successfully. You will be replied after reviewing "
+"the details."
 msgstr "لقد تم إرسال رسالتك بنجاح. سيتم الرد عليك بعد الاطلاع على التفاصيل."
 
-#: .\pages\views.py:37
+#: .\pages\views.py:40
 msgid "Your has been subscribed successfully."
 msgstr "لقد تم اشتراكك بنجاح."
 
@@ -64,11 +57,11 @@ msgstr "لقد تم اشتراكك بنجاح."
 msgid "Launch your professional website with SOFTmsg"
 msgstr ""
 
-#: .\templates\base.html:43
+#: .\templates\base.html:49
 msgid "System"
 msgstr ""
 
-#: .\templates\pages\faq.html:6
+#: .\templates\pages\PrivacyPolicy.html:6 .\templates\pages\faq.html:6
 msgid ""
 "Clear answers to the most frequently asked questions about our services to "
 "help you get information quickly and easily."
@@ -87,8 +80,8 @@ msgstr "كيف يمكنني البدء بتصميم موقع الويب الخا
 #: .\templates\pages\faq.html:23 .\templates\pages\index.html:652
 msgid ""
 "You can get started by filling out the inquiry form or booking a "
-"consultation with us through the website, and we will contact you to discuss"
-" your needs."
+"consultation with us through the website, and we will contact you to discuss "
+"your needs."
 msgstr ""
 "يمكنك البدء بملء نموذج الاستفسار أو حجز استشارة معنا عبر الموقع الإلكتروني، "
 "وسنتواصل معك لمناقشة احتياجاتك."
@@ -104,9 +97,9 @@ msgid ""
 "requirements. We're committed to providing competitive pricing while "
 "ensuring high-quality work."
 msgstr ""
-"يمكن أن تختلف تكلفة خدماتنا بناءً على مدى تعقيد مشروعك ونطاقه. نحن نقدم عروض"
-" أسعار مخصصة بعد مناقشة متطلباتك المحددة. نحن ملتزمون بتقديم أسعار تنافسية "
-"مع ضمان عمل عالي الجودة."
+"يمكن أن تختلف تكلفة خدماتنا بناءً على مدى تعقيد مشروعك ونطاقه. نحن نقدم عروض "
+"أسعار مخصصة بعد مناقشة متطلباتك المحددة. نحن ملتزمون بتقديم أسعار تنافسية مع "
+"ضمان عمل عالي الجودة."
 
 #: .\templates\pages\faq.html:44 .\templates\pages\index.html:673
 msgid "How long does it take to complete a web development project?"
@@ -115,9 +108,9 @@ msgstr "كم من الوقت يستغرق إكمال مشروع تطوير ال�
 #: .\templates\pages\faq.html:49 .\templates\pages\index.html:678
 msgid ""
 "Project timelines vary depending on the project's complexity and size. "
-"Simple websites can be completed in a few weeks, while more complex projects"
-" may take several months. We'll provide you with a detailed project timeline"
-" during our initial consultation."
+"Simple websites can be completed in a few weeks, while more complex projects "
+"may take several months. We'll provide you with a detailed project timeline "
+"during our initial consultation."
 msgstr ""
 "تختلف الجداول الزمنية للمشروع حسب مدى تعقيد المشروع وحجمه. يمكن إكمال مواقع "
 "الويب البسيطة في غضون أسابيع قليلة، بينما قد تستغرق المشاريع الأكثر تعقيدًا "
@@ -132,8 +125,8 @@ msgstr "هل تقدمون صيانة ودعم للموقع بعد الانتها
 #: .\templates\pages\faq.html:62 .\templates\pages\index.html:691
 msgid ""
 "Yes, we offer ongoing website maintenance and support services. We can help "
-"with updates, security enhancements, content management, and troubleshooting"
-" to ensure your website continues to perform optimally."
+"with updates, security enhancements, content management, and troubleshooting "
+"to ensure your website continues to perform optimally."
 msgstr ""
 "نعم، نحن نقدم خدمات الصيانة والدعم المستمر للموقع. يمكننا المساعدة في "
 "التحديثات والتحسينات الأمنية وإدارة المحتوى واستكشاف الأخطاء وإصلاحها لضمان "
@@ -145,13 +138,12 @@ msgstr "هل يمكنك إعادة تصميم موقع موجود؟"
 
 #: .\templates\pages\faq.html:75 .\templates\pages\index.html:704
 msgid ""
-"Absolutely! We specialize in website redesigns and can give your outdated or"
-" underperforming website a fresh and modern look while improving "
+"Absolutely! We specialize in website redesigns and can give your outdated or "
+"underperforming website a fresh and modern look while improving "
 "functionality and user experience."
 msgstr ""
-"قطعاً! نحن متخصصون في إعادة تصميم مواقع الويب ويمكننا منح موقع الويب الخاص "
-"بك القديم أو ضعيف الأداء مظهرًا جديدًا وحديثًا مع تحسين الوظائف وتجربة "
-"المستخدم."
+"قطعاً! نحن متخصصون في إعادة تصميم مواقع الويب ويمكننا منح موقع الويب الخاص بك "
+"القديم أو ضعيف الأداء مظهرًا جديدًا وحديثًا مع تحسين الوظائف وتجربة المستخدم."
 
 #: .\templates\pages\faq.html:83 .\templates\pages\index.html:712
 msgid "Can I add custom features to my website?"
@@ -171,11 +163,11 @@ msgstr "هل يمكنني تعديل موقع الويب الخاص بي بعد 
 
 #: .\templates\pages\faq.html:101
 msgid ""
-"Yes, we offer website maintenance and regular updates to allow you to modify"
-" the content and design as needed."
+"Yes, we offer website maintenance and regular updates to allow you to modify "
+"the content and design as needed."
 msgstr ""
-"نعم، نحن نقدم صيانة للموقع وتحديثات منتظمة للسماح لك بتعديل المحتوى والتصميم"
-" حسب الحاجة."
+"نعم، نحن نقدم صيانة للموقع وتحديثات منتظمة للسماح لك بتعديل المحتوى والتصميم "
+"حسب الحاجة."
 
 #: .\templates\pages\faq.html:109
 msgid "Do you design e-commerce websites?"
@@ -195,11 +187,11 @@ msgstr "هل الموقع متوافق مع الجوال؟"
 
 #: .\templates\pages\faq.html:127
 msgid ""
-"Yes, all the websites we design are responsive, meaning they will look great"
-" on mobile phones and tablets."
+"Yes, all the websites we design are responsive, meaning they will look great "
+"on mobile phones and tablets."
 msgstr ""
-"نعم، جميع مواقع الويب التي نصممها سريعة الاستجابة، مما يعني أنها ستبدو رائعة"
-" على الهواتف المحمولة والأجهزة اللوحية."
+"نعم، جميع مواقع الويب التي نصممها سريعة الاستجابة، مما يعني أنها ستبدو رائعة "
+"على الهواتف المحمولة والأجهزة اللوحية."
 
 #: .\templates\pages\faq.html:135
 msgid "Do you provide web hosting services?"
@@ -218,8 +210,8 @@ msgstr "هل تقدمون خدمات SEO (تحسين محركات البحث)؟"
 
 #: .\templates\pages\faq.html:153
 msgid ""
-"Yes, we implement best SEO practices in our website designs to ensure better"
-" search engine rankings. We also offer ongoing SEO services."
+"Yes, we implement best SEO practices in our website designs to ensure better "
+"search engine rankings. We also offer ongoing SEO services."
 msgstr ""
 "نعم، نحن نطبق أفضل ممارسات تحسين محركات البحث (SEO) في تصميمات مواقعنا "
 "الإلكترونية لضمان تصنيف أفضل في محركات البحث. نحن نقدم أيضًا خدمات تحسين "
@@ -231,8 +223,8 @@ msgstr "هل يمكنني إدارة الموقع بنفسي بعد تسليمه
 
 #: .\templates\pages\faq.html:166
 msgid ""
-"Yes, we make sure the website is easy to manage. We also provide training on"
-" how to manage your website's content after delivery."
+"Yes, we make sure the website is easy to manage. We also provide training on "
+"how to manage your website's content after delivery."
 msgstr ""
 "نعم، نحن نتأكد من سهولة إدارة الموقع. كما نقوم بتوفير التدريب على كيفية "
 "إدارة محتوى موقع الويب الخاص بك بعد التسليم."
@@ -268,8 +260,8 @@ msgstr "هل يمكنني إضافة متجر إلكتروني إلى موقع �
 
 #: .\templates\pages\faq.html:205
 msgid ""
-"Yes, we can integrate a fully functional e-commerce store into your website,"
-" including product management, secure payment options, and shipping "
+"Yes, we can integrate a fully functional e-commerce store into your website, "
+"including product management, secure payment options, and shipping "
 "configurations."
 msgstr ""
 "نعم، يمكننا دمج متجر تجارة إلكترونية يعمل بكامل طاقته في موقع الويب الخاص "
@@ -281,8 +273,8 @@ msgstr "هل يمكنني اختيار تصميم مخصص؟"
 
 #: .\templates\pages\faq.html:218
 msgid ""
-"Yes, we offer customized designs based on your specific vision and needs for"
-" your website."
+"Yes, we offer customized designs based on your specific vision and needs for "
+"your website."
 msgstr ""
 "نعم، نحن نقدم تصميمات مخصصة بناءً على رؤيتك واحتياجاتك المحددة لموقع الويب "
 "الخاص بك."
@@ -296,8 +288,8 @@ msgid ""
 "Yes, we provide ongoing technical support to ensure the website is running "
 "smoothly and address any issues after delivery."
 msgstr ""
-"نعم، نحن نقدم دعمًا فنيًا مستمرًا لضمان عمل الموقع بسلاسة ومعالجة أي مشكلات "
-"بعد التسليم."
+"نعم، نحن نقدم دعمًا فنيًا مستمرًا لضمان عمل الموقع بسلاسة ومعالجة أي مشكلات بعد "
+"التسليم."
 
 #: .\templates\pages\faq.html:239
 msgid "Do you offer regular website updates?"
@@ -417,8 +409,8 @@ msgid ""
 "Yes, we can integrate any features you need, such as online payment systems "
 "or integrations with other platforms."
 msgstr ""
-"نعم، يمكننا دمج أي ميزات تحتاجها، مثل أنظمة الدفع عبر الإنترنت أو التكامل مع"
-" منصات أخرى."
+"نعم، يمكننا دمج أي ميزات تحتاجها، مثل أنظمة الدفع عبر الإنترنت أو التكامل مع "
+"منصات أخرى."
 
 #: .\templates\pages\faq.html:369
 msgid "Do you offer easy-to-use website designs?"
@@ -426,8 +418,8 @@ msgstr "هل تقدمون تصميمات مواقع سهلة الاستخدام�
 
 #: .\templates\pages\faq.html:374
 msgid ""
-"Yes, we ensure the website design is simple and easy to navigate so visitors"
-" can interact with your site seamlessly."
+"Yes, we ensure the website design is simple and easy to navigate so visitors "
+"can interact with your site seamlessly."
 msgstr ""
 "نعم، نحن نضمن أن يكون تصميم موقع الويب بسيطًا وسهل التنقل فيه حتى يتمكن "
 "الزوار من التفاعل مع موقعك بسلاسة."
@@ -501,19 +493,19 @@ msgstr "اجعل حضورك الرقمي احترافيًا وفريدًا من 
 #: .\templates\pages\index.html:18
 msgid ""
 "We offer you professional website design services that enhance your digital "
-"presence and support the growth of your business. Attract more customers and"
-" increase your sales with a website that reflects your brand through a "
-"unique and exceptional experience. Your website is a mirror of your brand – "
-"attract new opportunities and boost profits. With our services, you’ll "
-"ensure a high level of excellence and digital success."
+"presence and support the growth of your business. Attract more customers and "
+"increase your sales with a website that reflects your brand through a unique "
+"and exceptional experience. Your website is a mirror of your brand – attract "
+"new opportunities and boost profits. With our services, you’ll ensure a high "
+"level of excellence and digital success."
 msgstr ""
 "نقدم لك خدمات تصميم مواقع إلكترونية احترافية تعزز تواجدك الرقمي وتدعم نمو "
 "أعمالك. اجذب المزيد من العملاء وزد مبيعاتك بموقع إلكتروني يعكس علامتك "
-"التجارية من خلال تجربة فريدة واستثنائية. موقع الويب الخاص بك هو مرآة لعلامتك"
-" التجارية - يجذب فرصًا جديدة ويعزز الأرباح. من خلال خدماتنا، ستضمن مستوى "
-"عالٍ من التميز والنجاح الرقمي."
+"التجارية من خلال تجربة فريدة واستثنائية. موقع الويب الخاص بك هو مرآة لعلامتك "
+"التجارية - يجذب فرصًا جديدة ويعزز الأرباح. من خلال خدماتنا، ستضمن مستوى عالٍ "
+"من التميز والنجاح الرقمي."
 
-#: .\templates\pages\index.html:22 .\templates\parts\footer.html:10
+#: .\templates\pages\index.html:22 .\templates\parts\footer.html:11
 #: .\templates\parts\navbar.html:62
 msgid "Start your website"
 msgstr "ابدأ موقع الويب الخاص بك"
@@ -632,8 +624,8 @@ msgstr "قابلة للتخصيص"
 
 #: .\templates\pages\index.html:203
 msgid ""
-"A flexible design that allows you to modify the system to suit your specific"
-" business needs."
+"A flexible design that allows you to modify the system to suit your specific "
+"business needs."
 msgstr "تصميم مرن يسمح لك بتعديل النظام ليناسب احتياجات عملك المحددة."
 
 #: .\templates\pages\index.html:211
@@ -697,8 +689,8 @@ msgid ""
 "building secure, integrated systems tailored to your business needs. "
 "Specializing in designing robust infrastructures and developing custom "
 "solutions that ensure efficiency, high performance, and data security. Your "
-"ideal partner for creating a flexible and sustainable system that meets your"
-" goals with confidence."
+"ideal partner for creating a flexible and sustainable system that meets your "
+"goals with confidence."
 msgstr ""
 "مطور خلفي يتمتع بمهارات عالية وموثوق به ويتمتع بخبرة عميقة في بناء أنظمة "
 "آمنة ومتكاملة مصممة خصيصًا لتلبية احتياجات عملك. متخصصون في تصميم البنى "
@@ -715,14 +707,13 @@ msgid ""
 "interfaces and seamless user experiences. Focused on achieving a balance "
 "between functional aesthetics and ease of use, ensuring an engaging and "
 "effective interactive experience for users. Always striving to transform "
-"ideas into exceptional designs that contribute to the success of the project"
-" and deliver an unparalleled user experience."
+"ideas into exceptional designs that contribute to the success of the project "
+"and deliver an unparalleled user experience."
 msgstr ""
-"مصمم UI/UX ذو مهارات عالية ويتمتع بخبرة في إنشاء واجهات مستخدم مبتكرة وتجارب"
-" مستخدم سلسة. تركز على تحقيق التوازن بين الجماليات الوظيفية وسهولة "
-"الاستخدام، مما يضمن تجربة تفاعلية جذابة وفعالة للمستخدمين. نسعى دائمًا "
-"لتحويل الأفكار إلى تصميمات استثنائية تساهم في نجاح المشروع وتقدم تجربة "
-"مستخدم لا مثيل لها."
+"مصمم UI/UX ذو مهارات عالية ويتمتع بخبرة في إنشاء واجهات مستخدم مبتكرة وتجارب "
+"مستخدم سلسة. تركز على تحقيق التوازن بين الجماليات الوظيفية وسهولة الاستخدام، "
+"مما يضمن تجربة تفاعلية جذابة وفعالة للمستخدمين. نسعى دائمًا لتحويل الأفكار "
+"إلى تصميمات استثنائية تساهم في نجاح المشروع وتقدم تجربة مستخدم لا مثيل لها."
 
 #: .\templates\pages\index.html:296
 msgid "Frontend Designer"
@@ -732,9 +723,9 @@ msgstr "مصمم الواجهة الأمامية"
 msgid ""
 "An exceptional Frontend Developer with expertise in transforming designs "
 "into interactive, user-friendly websites and applications. Focused on "
-"writing clean and efficient code, ensuring a seamless user experience across"
-" all devices and browsers. A trusted partner in bringing your vision to life"
-" with stunning and fully integrated digital interfaces."
+"writing clean and efficient code, ensuring a seamless user experience across "
+"all devices and browsers. A trusted partner in bringing your vision to life "
+"with stunning and fully integrated digital interfaces."
 msgstr ""
 "مطور أمامي استثنائي يتمتع بخبرة في تحويل التصميمات إلى مواقع وتطبيقات "
 "تفاعلية وسهلة الاستخدام. التركيز على كتابة تعليمات برمجية نظيفة وفعالة، مما "
@@ -750,16 +741,16 @@ msgid ""
 "A professional female Project Manager with extensive experience in "
 "successfully planning and executing projects. She is responsible for "
 "coordinating between different teams, setting objectives and tasks, and "
-"managing resources to ensure project delivery on time and within budget. She"
-" possesses strong leadership skills and problem-solving abilities, making "
-"her a key partner in achieving project success and guiding it toward desired"
-" outcomes."
+"managing resources to ensure project delivery on time and within budget. She "
+"possesses strong leadership skills and problem-solving abilities, making her "
+"a key partner in achieving project success and guiding it toward desired "
+"outcomes."
 msgstr ""
 "مديرة مشروع محترفة تتمتع بخبرة واسعة في تخطيط المشاريع وتنفيذها بنجاح. وهي "
-"مسؤولة عن التنسيق بين الفرق المختلفة، وتحديد الأهداف والمهام، وإدارة الموارد"
-" لضمان تسليم المشروع في الوقت المحدد وفي حدود الميزانية. تتمتع بمهارات "
-"قيادية قوية وقدرات على حل المشكلات، مما يجعلها شريكًا رئيسيًا في تحقيق نجاح "
-"المشروع وتوجيهه نحو النتائج المرجوة."
+"مسؤولة عن التنسيق بين الفرق المختلفة، وتحديد الأهداف والمهام، وإدارة الموارد "
+"لضمان تسليم المشروع في الوقت المحدد وفي حدود الميزانية. تتمتع بمهارات قيادية "
+"قوية وقدرات على حل المشكلات، مما يجعلها شريكًا رئيسيًا في تحقيق نجاح المشروع "
+"وتوجيهه نحو النتائج المرجوة."
 
 #: .\templates\pages\index.html:331
 msgid "Customer reviews"
@@ -781,8 +772,8 @@ msgstr "رومانيا"
 
 #: .\templates\pages\index.html:372
 msgid ""
-"Since the launch of the new website, we’ve noticed a significant increase in"
-" engagement and sales. Thank you for a website that reflects the "
+"Since the launch of the new website, we’ve noticed a significant increase in "
+"engagement and sales. Thank you for a website that reflects the "
 "professionalism of our business."
 msgstr ""
 "منذ إطلاق الموقع الجديد، لاحظنا زيادة كبيرة في التفاعل والمبيعات. نشكرك على "
@@ -818,8 +809,8 @@ msgstr "موقع الويب الخاص بك لا يجلب عملاء جدد لع
 
 #: .\templates\pages\index.html:453
 msgid ""
-"You can’t modify the content on your website alone, or the one who maintains"
-" it disappeared"
+"You can’t modify the content on your website alone, or the one who maintains "
+"it disappeared"
 msgstr ""
 "لا يمكنك تعديل المحتوى على موقع الويب الخاص بك وحدك، أو اختفى الشخص الذي "
 "يحافظ عليه"
@@ -903,7 +894,8 @@ msgid "Top-notch design"
 msgstr "تصميم من الدرجة الأولى"
 
 #: .\templates\pages\index.html:563
-msgid "Your website will <span class=\"fw-bold\">leave a \"wow\" reaction</span>"
+msgid ""
+"Your website will <span class=\"fw-bold\">leave a \"wow\" reaction</span>"
 msgstr "سيترك موقع الويب الخاص بك <span class=\"fw-bold\">تفاعلًا رائعًا</span>"
 
 #: .\templates\pages\index.html:570
@@ -989,8 +981,8 @@ msgstr ""
 "املأ نموذج الاتصال الآن، وفريقنا المتخصص جاهز لتزويدك بالدعم الذي تحتاجه "
 "وتحويل أحلامك إلى حقيقة. اتخذ الخطوة الأولى نحو النجاح!"
 
-#: .\templates\pages\index.html:751 .\templates\parts\footer.html:17
-#: .\templates\parts\footer.html:18
+#: .\templates\pages\index.html:751 .\templates\parts\footer.html:18
+#: .\templates\parts\footer.html:19
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1845
 msgid "Email address"
 msgstr "عنوان البريد الإلكتروني"
@@ -999,49 +991,32 @@ msgstr "عنوان البريد الإلكتروني"
 msgid "Phone Number"
 msgstr "رقم التليفون"
 
-#: .\templates\pages\index.html:765
-msgid "Project Title"
-msgstr "عنوان المشروع"
-
-#: .\templates\pages\index.html:768
-msgid "Provide a concise title that accurately describes your project."
-msgstr "قم بتوفير عنوان موجز يصف مشروعك بدقة."
-
-#: .\templates\pages\index.html:774
+#: .\templates\pages\index.html:775
 msgid "Project Description"
 msgstr "وصف المشروع"
 
-#: .\templates\pages\index.html:778
+#: .\templates\pages\index.html:779
 msgid "Enter a detailed description of your project."
 msgstr "أدخل وصفًا تفصيليًا لمشروعك."
 
-#: .\templates\pages\index.html:783
+#: .\templates\pages\index.html:784
 msgid "Examples of similar websites"
 msgstr "أمثلة على مواقع مماثلة"
 
-#: .\templates\pages\index.html:787
+#: .\templates\pages\index.html:788
 msgid "Provide examples or links to designs and websites you like."
 msgstr "قدم أمثلة أو روابط للتصميمات ومواقع الويب التي تعجبك."
 
-#: .\templates\pages\index.html:792
-msgid "Expected budget"
-msgstr "الميزانية المتوقعة"
-
-#: .\templates\pages\index.html:795
-msgid "The planned amount of money to cover project expenses."
-msgstr "المبلغ المخطط له لتغطية نفقات المشروع."
-
-#: .\templates\pages\index.html:799
+#: .\templates\pages\index.html:801
 msgid ""
-"By sending this form I confirm that I have read and accept the Privacy "
-"Policy"
+"By sending this form I confirm that I have read and accept the Privacy Policy"
 msgstr "بإرسال هذا النموذج، أؤكد أنني قرأت سياسة الخصوصية وأوافق عليها"
 
-#: .\templates\pages\index.html:801
+#: .\templates\pages\index.html:803
 msgid "You must agree before submitting."
 msgstr "يجب عليك الموافقة قبل التقديم."
 
-#: .\templates\pages\index.html:805
+#: .\templates\pages\index.html:807
 msgid "Submit"
 msgstr "يُقدِّم"
 
@@ -1132,15 +1107,19 @@ msgstr "التعليمات"
 msgid "Contact us"
 msgstr "اتصل بنا"
 
-#: .\templates\parts\footer.html:14
+#: .\templates\parts\footer.html:10
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: .\templates\parts\footer.html:15
 msgid "Subscribe to our newsletter"
 msgstr "اشترك في النشرة الإخبارية لدينا"
 
-#: .\templates\parts\footer.html:15
+#: .\templates\parts\footer.html:16
 msgid "Monthly digest of what's new and exciting from us."
 msgstr "ملخص شهري لما هو جديد ومثير منا."
 
-#: .\templates\parts\footer.html:19
+#: .\templates\parts\footer.html:20
 msgid "Subscribe"
 msgstr "اشترك"
 
@@ -1207,8 +1186,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:267
 msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or"
-" hyphens."
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:279
@@ -1408,15 +1387,15 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1489
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
-"HH:MM[:ss[.uuuuuu]][TZ] format."
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1497
 #, python-format
 msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD "
-"HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1502
@@ -1435,8 +1414,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1789
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] "
-"[[HH:]MM:]ss[.uuuuuu] format."
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1793
@@ -1591,8 +1570,7 @@ msgid "Many-to-many relationship"
 msgstr ""
 
 #. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the
-#. label
+#. characters will prevent the default label_suffix to be appended to the label
 #: .\venv\Lib\site-packages\django\forms\boundfield.py:184
 msgid ":?.!"
 msgstr ""
@@ -1642,8 +1620,7 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:625
 #, python-format
-msgid ""
-"Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
@@ -1754,8 +1731,7 @@ msgid "The inline value did not match the parent instance."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1429
-msgid ""
-"Select a valid choice. That choice is not one of the available choices."
+msgid "Select a valid choice. That choice is not one of the available choices."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1568
@@ -2218,11 +2194,11 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:127
 msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or"
-" including the “Referrer-Policy: no-referrer” header, please remove them. "
-"The CSRF protection requires the “Referer” header to do strict referer "
-"checking. If you’re concerned about privacy, use alternatives like <a "
-"rel=\"noreferrer\" …> for links to third-party sites."
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:136
@@ -2273,8 +2249,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:652
 #, python-format
 msgid ""
-"Future %(verbose_name_plural)s not available because "
-"%(class_name)s.allow_future is False."
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:692
@@ -2330,10 +2306,10 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
 #, python-format
 msgid ""
-"You are seeing this page because <a "
-"href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
-"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file "
-"and you have not configured any URLs."
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:229
@@ -2455,8 +2431,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\500.html:20
 msgid ""
-"There's been an error. It's been reported to the site administrators via "
-"e-mail and should be fixed shortly. Thanks for your patience."
+"There's been an error. It's been reported to the site administrators via e-"
+"mail and should be fixed shortly. Thanks for your patience."
 msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\actions.html:4
@@ -2671,8 +2647,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\grappelli\templates\admin\delete_confirmation.html:37
 #, python-format
 msgid ""
-"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the"
-" following protected related objects:"
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
 msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\delete_confirmation.html:47
@@ -2785,9 +2761,9 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\invalid_setup.html:16
 msgid ""
-"Something's wrong with your database installation. Make sure the appropriate"
-" database tables have been created, and make sure the database is readable "
-"by the appropriate user."
+"Something's wrong with your database installation. Make sure the appropriate "
+"database tables have been created, and make sure the database is readable by "
+"the appropriate user."
 msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\login.html:26
@@ -2822,8 +2798,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\grappelli\templates\admin\object_history.html:42
 #: .\venv\Lib\site-packages\grappelli\templates\reversion\object_history.html:36
 msgid ""
-"This object doesn't have a change history. It probably wasn't added via this"
-" admin site."
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
 msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\pagination.html:9
@@ -2906,10 +2882,14 @@ msgstr ""
 msgid ""
 "\n"
 "            <p>To install bookmarklets, drag the link to your bookmarks\n"
-"    toolbar, or right-click the link and add it to your bookmarks. Now you can\n"
-"    select the bookmarklet from any page in the site.  Note that some of these\n"
-"    bookmarklets require you to be viewing the site from a computer designated\n"
-"    as \"internal\" (talk to your system administrator if you aren't sure if\n"
+"    toolbar, or right-click the link and add it to your bookmarks. Now you "
+"can\n"
+"    select the bookmarklet from any page in the site.  Note that some of "
+"these\n"
+"    bookmarklets require you to be viewing the site from a computer "
+"designated\n"
+"    as \"internal\" (talk to your system administrator if you aren't sure "
+"if\n"
 "    your computer is \"internal\").</p>\n"
 "        "
 msgstr ""
@@ -2968,8 +2948,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_form.html:18
 msgid ""
-"Please enter your old password, for security's sake, and then enter your new"
-" password twice so we can verify you typed it in correctly."
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
 msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_form.html:23
@@ -4141,3 +4121,21 @@ msgstr ""
 #, python-format
 msgid "Invalid date format %(value)s: %(e)s"
 msgstr ""
+
+#~ msgid "Enter your project title here"
+#~ msgstr "أدخل عنوان مشروعك هنا"
+
+#~ msgid "Enter the estimated budget amount"
+#~ msgstr "أدخل مبلغ الميزانية التقديرية"
+
+#~ msgid "Project Title"
+#~ msgstr "عنوان المشروع"
+
+#~ msgid "Provide a concise title that accurately describes your project."
+#~ msgstr "قم بتوفير عنوان موجز يصف مشروعك بدقة."
+
+#~ msgid "Expected budget"
+#~ msgstr "الميزانية المتوقعة"
+
+#~ msgid "The planned amount of money to cover project expenses."
+#~ msgstr "المبلغ المخطط له لتغطية نفقات المشروع."

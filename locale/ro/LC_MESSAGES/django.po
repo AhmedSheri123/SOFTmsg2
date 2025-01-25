@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-22 07:35+0300\n"
+"POT-Creation-Date: 2025-01-25 11:45+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
 
 #: .\pages\forms.py:12
 msgid "write your name..."
@@ -30,10 +31,6 @@ msgstr "name@example.com"
 msgid "e.g., +1 234 567 890"
 msgstr "de exemplu, +1 234 567 890"
 
-#: .\pages\forms.py:15
-msgid "Enter your project title here"
-msgstr "Introduceți aici titlul proiectului dvs"
-
 #: .\pages\forms.py:16
 msgid "How can our team help you?"
 msgstr "Cum te poate ajuta echipa noastră?"
@@ -42,23 +39,19 @@ msgstr "Cum te poate ajuta echipa noastră?"
 msgid "https://example.com"
 msgstr "https://example.com"
 
-#: .\pages\forms.py:18
-msgid "Enter the estimated budget amount"
-msgstr "Introduceți suma estimată a bugetului"
-
 #: .\pages\models.py:7 .\templates\pages\index.html:744
 msgid "Full Name"
 msgstr "Numele complet"
 
-#: .\pages\views.py:30
+#: .\pages\views.py:33
 msgid ""
-"Your message has been sent successfully. You will be replied after reviewing"
-" the details."
+"Your message has been sent successfully. You will be replied after reviewing "
+"the details."
 msgstr ""
 "Mesajul dvs. a fost trimis cu succes. Veți primi răspuns după examinarea "
 "detaliilor."
 
-#: .\pages\views.py:37
+#: .\pages\views.py:40
 msgid "Your has been subscribed successfully."
 msgstr "Dvs. a fost abonat cu succes."
 
@@ -66,11 +59,11 @@ msgstr "Dvs. a fost abonat cu succes."
 msgid "Launch your professional website with SOFTmsg"
 msgstr ""
 
-#: .\templates\base.html:43
+#: .\templates\base.html:49
 msgid "System"
 msgstr ""
 
-#: .\templates\pages\faq.html:6
+#: .\templates\pages\PrivacyPolicy.html:6 .\templates\pages\faq.html:6
 msgid ""
 "Clear answers to the most frequently asked questions about our services to "
 "help you get information quickly and easily."
@@ -89,11 +82,11 @@ msgstr "Cum pot începe cu proiectarea site-ului meu?"
 #: .\templates\pages\faq.html:23 .\templates\pages\index.html:652
 msgid ""
 "You can get started by filling out the inquiry form or booking a "
-"consultation with us through the website, and we will contact you to discuss"
-" your needs."
+"consultation with us through the website, and we will contact you to discuss "
+"your needs."
 msgstr ""
-"Puteți începe completând formularul de solicitare sau rezervând o consultare"
-" cu noi prin intermediul site-ului web, iar noi vă vom contacta pentru a "
+"Puteți începe completând formularul de solicitare sau rezervând o consultare "
+"cu noi prin intermediul site-ului web, iar noi vă vom contacta pentru a "
 "discuta nevoile dumneavoastră."
 
 #: .\templates\pages\faq.html:31 .\templates\pages\index.html:660
@@ -119,13 +112,13 @@ msgstr "Cât durează finalizarea unui proiect de dezvoltare web?"
 #: .\templates\pages\faq.html:49 .\templates\pages\index.html:678
 msgid ""
 "Project timelines vary depending on the project's complexity and size. "
-"Simple websites can be completed in a few weeks, while more complex projects"
-" may take several months. We'll provide you with a detailed project timeline"
-" during our initial consultation."
+"Simple websites can be completed in a few weeks, while more complex projects "
+"may take several months. We'll provide you with a detailed project timeline "
+"during our initial consultation."
 msgstr ""
 "Termenele proiectului variază în funcție de complexitatea și dimensiunea "
-"proiectului. Site-urile web simple pot fi finalizate în câteva săptămâni, în"
-" timp ce proiectele mai complexe pot dura câteva luni. Vă vom oferi o "
+"proiectului. Site-urile web simple pot fi finalizate în câteva săptămâni, în "
+"timp ce proiectele mai complexe pot dura câteva luni. Vă vom oferi o "
 "cronologie detaliată a proiectului în timpul consultării noastre inițiale."
 
 #: .\templates\pages\faq.html:57 .\templates\pages\index.html:686
@@ -138,11 +131,11 @@ msgstr ""
 #: .\templates\pages\faq.html:62 .\templates\pages\index.html:691
 msgid ""
 "Yes, we offer ongoing website maintenance and support services. We can help "
-"with updates, security enhancements, content management, and troubleshooting"
-" to ensure your website continues to perform optimally."
+"with updates, security enhancements, content management, and troubleshooting "
+"to ensure your website continues to perform optimally."
 msgstr ""
-"Da, oferim servicii de întreținere și asistență continuă a site-ului web. Vă"
-" putem ajuta cu actualizări, îmbunătățiri de securitate, gestionarea "
+"Da, oferim servicii de întreținere și asistență continuă a site-ului web. Vă "
+"putem ajuta cu actualizări, îmbunătățiri de securitate, gestionarea "
 "conținutului și depanare pentru a ne asigura că site-ul dvs. continuă să "
 "funcționeze optim."
 
@@ -152,12 +145,12 @@ msgstr "Puteți reproiecta un site web existent?"
 
 #: .\templates\pages\faq.html:75 .\templates\pages\index.html:704
 msgid ""
-"Absolutely! We specialize in website redesigns and can give your outdated or"
-" underperforming website a fresh and modern look while improving "
+"Absolutely! We specialize in website redesigns and can give your outdated or "
+"underperforming website a fresh and modern look while improving "
 "functionality and user experience."
 msgstr ""
-"Absolut! Suntem specializați în reproiectarea site-urilor web și putem oferi"
-" site-ului dvs. învechit sau cu performanțe slabe un aspect proaspăt și "
+"Absolut! Suntem specializați în reproiectarea site-urilor web și putem oferi "
+"site-ului dvs. învechit sau cu performanțe slabe un aspect proaspăt și "
 "modern, îmbunătățind în același timp funcționalitatea și experiența "
 "utilizatorului."
 
@@ -170,9 +163,9 @@ msgid ""
 "Yes, we can customize the website to suit your specific needs, such as "
 "integrating social media, booking systems, or advanced functionalities."
 msgstr ""
-"Da, putem personaliza site-ul web pentru a se potrivi nevoilor dumneavoastră"
-" specifice, cum ar fi integrarea rețelelor sociale, sisteme de rezervare sau"
-" funcționalități avansate."
+"Da, putem personaliza site-ul web pentru a se potrivi nevoilor dumneavoastră "
+"specifice, cum ar fi integrarea rețelelor sociale, sisteme de rezervare sau "
+"funcționalități avansate."
 
 #: .\templates\pages\faq.html:96
 msgid "Can I modify my website after it’s designed?"
@@ -180,8 +173,8 @@ msgstr "Îmi pot modifica site-ul după ce este proiectat?"
 
 #: .\templates\pages\faq.html:101
 msgid ""
-"Yes, we offer website maintenance and regular updates to allow you to modify"
-" the content and design as needed."
+"Yes, we offer website maintenance and regular updates to allow you to modify "
+"the content and design as needed."
 msgstr ""
 "Da, oferim întreținere site-ului web și actualizări regulate pentru a vă "
 "permite să modificați conținutul și designul după cum este necesar."
@@ -204,8 +197,8 @@ msgstr "Site-ul este prietenos cu dispozitivele mobile?"
 
 #: .\templates\pages\faq.html:127
 msgid ""
-"Yes, all the websites we design are responsive, meaning they will look great"
-" on mobile phones and tablets."
+"Yes, all the websites we design are responsive, meaning they will look great "
+"on mobile phones and tablets."
 msgstr ""
 "Da, toate site-urile web pe care le proiectăm sunt responsive, ceea ce "
 "înseamnă că vor arăta grozav pe telefoane mobile și tablete."
@@ -228,8 +221,8 @@ msgstr "Oferiți servicii SEO (Search Engine Optimization)?"
 
 #: .\templates\pages\faq.html:153
 msgid ""
-"Yes, we implement best SEO practices in our website designs to ensure better"
-" search engine rankings. We also offer ongoing SEO services."
+"Yes, we implement best SEO practices in our website designs to ensure better "
+"search engine rankings. We also offer ongoing SEO services."
 msgstr ""
 "Da, implementăm cele mai bune practici SEO în designul site-urilor noastre "
 "web pentru a asigura o poziție mai bună în motoarele de căutare. De "
@@ -241,8 +234,8 @@ msgstr "Pot gestiona singur site-ul după ce este livrat?"
 
 #: .\templates\pages\faq.html:166
 msgid ""
-"Yes, we make sure the website is easy to manage. We also provide training on"
-" how to manage your website's content after delivery."
+"Yes, we make sure the website is easy to manage. We also provide training on "
+"how to manage your website's content after delivery."
 msgstr ""
 "Da, ne asigurăm că site-ul este ușor de gestionat. Oferim, de asemenea, "
 "instruire despre cum să gestionați conținutul site-ului dvs. după livrare."
@@ -269,8 +262,8 @@ msgid ""
 "protected from threats and hacks. We also offer SSL certificates for "
 "additional security."
 msgstr ""
-"Da, folosim cele mai recente tehnologii de securitate pentru a ne asigura că"
-" site-ul dvs. este protejat de amenințări și hack-uri. De asemenea, oferim "
+"Da, folosim cele mai recente tehnologii de securitate pentru a ne asigura că "
+"site-ul dvs. este protejat de amenințări și hack-uri. De asemenea, oferim "
 "certificate SSL pentru securitate suplimentară."
 
 #: .\templates\pages\faq.html:200
@@ -279,13 +272,13 @@ msgstr "Pot adăuga un magazin online pe site-ul meu?"
 
 #: .\templates\pages\faq.html:205
 msgid ""
-"Yes, we can integrate a fully functional e-commerce store into your website,"
-" including product management, secure payment options, and shipping "
+"Yes, we can integrate a fully functional e-commerce store into your website, "
+"including product management, secure payment options, and shipping "
 "configurations."
 msgstr ""
-"Da, putem integra un magazin de comerț electronic complet funcțional în "
-"site-ul dvs. web, inclusiv gestionarea produselor, opțiunile de plată sigure"
-" și configurațiile de expediere."
+"Da, putem integra un magazin de comerț electronic complet funcțional în site-"
+"ul dvs. web, inclusiv gestionarea produselor, opțiunile de plată sigure și "
+"configurațiile de expediere."
 
 #: .\templates\pages\faq.html:213
 msgid "Can I choose a custom design?"
@@ -293,11 +286,11 @@ msgstr "Pot alege un design personalizat?"
 
 #: .\templates\pages\faq.html:218
 msgid ""
-"Yes, we offer customized designs based on your specific vision and needs for"
-" your website."
+"Yes, we offer customized designs based on your specific vision and needs for "
+"your website."
 msgstr ""
-"Da, oferim modele personalizate bazate pe viziunea și nevoile dvs. specifice"
-" pentru site-ul dvs. web."
+"Da, oferim modele personalizate bazate pe viziunea și nevoile dvs. specifice "
+"pentru site-ul dvs. web."
 
 #: .\templates\pages\faq.html:226
 msgid "Do you offer technical support after the website is delivered?"
@@ -393,8 +386,8 @@ msgid ""
 "We provide regular updates on the progress of your website via email or "
 "scheduled meetings."
 msgstr ""
-"Vă oferim actualizări regulate cu privire la progresul site-ului dvs. prin "
-"e-mail sau întâlniri programate."
+"Vă oferim actualizări regulate cu privire la progresul site-ului dvs. prin e-"
+"mail sau întâlniri programate."
 
 #: .\templates\pages\faq.html:330
 msgid "Can I add a booking system to my website?"
@@ -439,11 +432,11 @@ msgstr "Oferiți design de site web ușor de utilizat?"
 
 #: .\templates\pages\faq.html:374
 msgid ""
-"Yes, we ensure the website design is simple and easy to navigate so visitors"
-" can interact with your site seamlessly."
+"Yes, we ensure the website design is simple and easy to navigate so visitors "
+"can interact with your site seamlessly."
 msgstr ""
-"Da, ne asigurăm că designul site-ului este simplu și ușor de navigat, astfel"
-" încât vizitatorii să poată interacționa cu site-ul dvs. fără probleme."
+"Da, ne asigurăm că designul site-ului este simplu și ușor de navigat, astfel "
+"încât vizitatorii să poată interacționa cu site-ul dvs. fără probleme."
 
 #: .\templates\pages\faq.html:382
 msgid "Can I add interactive pages to my website?"
@@ -478,8 +471,8 @@ msgid ""
 "Yes, we can add a photo and video gallery to showcase your services or "
 "products in a visually appealing way."
 msgstr ""
-"Da, putem adăuga o galerie foto și video pentru a vă prezenta serviciile sau"
-" produsele într-un mod atrăgător din punct de vedere vizual."
+"Da, putem adăuga o galerie foto și video pentru a vă prezenta serviciile sau "
+"produsele într-un mod atrăgător din punct de vedere vizual."
 
 #: .\templates\pages\faq.html:421
 msgid "How can I contact you?"
@@ -490,8 +483,8 @@ msgid ""
 "You can contact us through the contact form on the website, via live chat, "
 "or by email."
 msgstr ""
-"Ne puteți contacta prin formularul de contact de pe site, prin chat live sau"
-" prin e-mail."
+"Ne puteți contacta prin formularul de contact de pe site, prin chat live sau "
+"prin e-mail."
 
 #: .\templates\pages\faq.html:432
 msgid "Can't find your answer?"
@@ -516,11 +509,11 @@ msgstr "Faceți-vă prezența digitală profesională și unică"
 #: .\templates\pages\index.html:18
 msgid ""
 "We offer you professional website design services that enhance your digital "
-"presence and support the growth of your business. Attract more customers and"
-" increase your sales with a website that reflects your brand through a "
-"unique and exceptional experience. Your website is a mirror of your brand – "
-"attract new opportunities and boost profits. With our services, you’ll "
-"ensure a high level of excellence and digital success."
+"presence and support the growth of your business. Attract more customers and "
+"increase your sales with a website that reflects your brand through a unique "
+"and exceptional experience. Your website is a mirror of your brand – attract "
+"new opportunities and boost profits. With our services, you’ll ensure a high "
+"level of excellence and digital success."
 msgstr ""
 "Vă oferim servicii profesionale de design de site-uri web care vă "
 "îmbunătățesc prezența digitală și susțin creșterea afacerii dumneavoastră. "
@@ -530,7 +523,7 @@ msgstr ""
 "profiturile. Cu serviciile noastre, veți asigura un nivel ridicat de "
 "excelență și succes digital."
 
-#: .\templates\pages\index.html:22 .\templates\parts\footer.html:10
+#: .\templates\pages\index.html:22 .\templates\parts\footer.html:11
 #: .\templates\parts\navbar.html:62
 msgid "Start your website"
 msgstr "Începeți site-ul dvs"
@@ -621,8 +614,8 @@ msgid ""
 "A simple and intuitive interface that allows you to manage all your "
 "operations easily, even for non-technical users."
 msgstr ""
-"O interfață simplă și intuitivă care vă permite să vă gestionați cu ușurință"
-" toate operațiunile, chiar și pentru utilizatorii netehnici."
+"O interfață simplă și intuitivă care vă permite să vă gestionați cu ușurință "
+"toate operațiunile, chiar și pentru utilizatorii netehnici."
 
 #: .\templates\pages\index.html:191
 msgid "Security"
@@ -650,8 +643,8 @@ msgstr "Personalizat"
 
 #: .\templates\pages\index.html:203
 msgid ""
-"A flexible design that allows you to modify the system to suit your specific"
-" business needs."
+"A flexible design that allows you to modify the system to suit your specific "
+"business needs."
 msgstr ""
 "Un design flexibil care vă permite să modificați sistemul pentru a se "
 "potrivi nevoilor dvs. specifice de afaceri."
@@ -685,8 +678,8 @@ msgid ""
 "An advanced control system that allows you to assign different roles and "
 "permissions to users within the system."
 msgstr ""
-"Un sistem de control avansat care vă permite să atribuiți diferite roluri și"
-" permisiuni utilizatorilor din sistem."
+"Un sistem de control avansat care vă permite să atribuiți diferite roluri și "
+"permisiuni utilizatorilor din sistem."
 
 #: .\templates\pages\index.html:231
 #: .\venv\Lib\site-packages\grappelli\dashboard\dashboards.py:165
@@ -719,8 +712,8 @@ msgid ""
 "building secure, integrated systems tailored to your business needs. "
 "Specializing in designing robust infrastructures and developing custom "
 "solutions that ensure efficiency, high performance, and data security. Your "
-"ideal partner for creating a flexible and sustainable system that meets your"
-" goals with confidence."
+"ideal partner for creating a flexible and sustainable system that meets your "
+"goals with confidence."
 msgstr ""
 "Un dezvoltator backend cu înaltă calificare și încredere, cu o experiență "
 "profundă în construirea de sisteme securizate, integrate, adaptate nevoilor "
@@ -740,15 +733,15 @@ msgid ""
 "interfaces and seamless user experiences. Focused on achieving a balance "
 "between functional aesthetics and ease of use, ensuring an engaging and "
 "effective interactive experience for users. Always striving to transform "
-"ideas into exceptional designs that contribute to the success of the project"
-" and deliver an unparalleled user experience."
+"ideas into exceptional designs that contribute to the success of the project "
+"and deliver an unparalleled user experience."
 msgstr ""
 "Un designer UI/UX cu înaltă calificare, cu experiență în crearea de "
 "interfețe de utilizator inovatoare și experiențe de utilizator fără "
 "întreruperi. Concentrat pe atingerea unui echilibru între estetica "
 "funcțională și ușurința în utilizare, asigurând o experiență interactivă "
-"captivantă și eficientă pentru utilizatori. Ne străduim mereu să transformăm"
-" ideile în design excepțional care contribuie la succesul proiectului și "
+"captivantă și eficientă pentru utilizatori. Ne străduim mereu să transformăm "
+"ideile în design excepțional care contribuie la succesul proiectului și "
 "oferă o experiență de utilizator de neegalat."
 
 #: .\templates\pages\index.html:296
@@ -759,14 +752,14 @@ msgstr "Designer front-end"
 msgid ""
 "An exceptional Frontend Developer with expertise in transforming designs "
 "into interactive, user-friendly websites and applications. Focused on "
-"writing clean and efficient code, ensuring a seamless user experience across"
-" all devices and browsers. A trusted partner in bringing your vision to life"
-" with stunning and fully integrated digital interfaces."
+"writing clean and efficient code, ensuring a seamless user experience across "
+"all devices and browsers. A trusted partner in bringing your vision to life "
+"with stunning and fully integrated digital interfaces."
 msgstr ""
 "Un dezvoltator Frontend excepțional, cu experiență în transformarea design-"
 "urilor în site-uri web și aplicații interactive, ușor de utilizat. "
-"Concentrat pe scrierea unui cod curat și eficient, asigurând o experiență de"
-" utilizator fără întreruperi pe toate dispozitivele și browserele. Un "
+"Concentrat pe scrierea unui cod curat și eficient, asigurând o experiență de "
+"utilizator fără întreruperi pe toate dispozitivele și browserele. Un "
 "partener de încredere pentru a vă aduce viziunea la viață cu interfețe "
 "digitale uimitoare și complet integrate."
 
@@ -779,10 +772,10 @@ msgid ""
 "A professional female Project Manager with extensive experience in "
 "successfully planning and executing projects. She is responsible for "
 "coordinating between different teams, setting objectives and tasks, and "
-"managing resources to ensure project delivery on time and within budget. She"
-" possesses strong leadership skills and problem-solving abilities, making "
-"her a key partner in achieving project success and guiding it toward desired"
-" outcomes."
+"managing resources to ensure project delivery on time and within budget. She "
+"possesses strong leadership skills and problem-solving abilities, making her "
+"a key partner in achieving project success and guiding it toward desired "
+"outcomes."
 msgstr ""
 "O femeie manager de proiect profesionistă, cu experiență vastă în "
 "planificarea și executarea cu succes a proiectelor. Ea este responsabilă de "
@@ -813,8 +806,8 @@ msgstr "Romania"
 
 #: .\templates\pages\index.html:372
 msgid ""
-"Since the launch of the new website, we’ve noticed a significant increase in"
-" engagement and sales. Thank you for a website that reflects the "
+"Since the launch of the new website, we’ve noticed a significant increase in "
+"engagement and sales. Thank you for a website that reflects the "
 "professionalism of our business."
 msgstr ""
 "De la lansarea noului site web, am observat o creștere semnificativă a "
@@ -853,11 +846,11 @@ msgstr "Site-ul dvs. web nu aduce noi clienți pentru afacerea dvs"
 
 #: .\templates\pages\index.html:453
 msgid ""
-"You can’t modify the content on your website alone, or the one who maintains"
-" it disappeared"
+"You can’t modify the content on your website alone, or the one who maintains "
+"it disappeared"
 msgstr ""
-"Nu poți modifica doar conținutul site-ului tău web sau cel care îl întreține"
-" a dispărut"
+"Nu poți modifica doar conținutul site-ului tău web sau cel care îl întreține "
+"a dispărut"
 
 #: .\templates\pages\index.html:458
 msgid "Your website is unusable on a phone"
@@ -944,8 +937,10 @@ msgid "Top-notch design"
 msgstr "Design de top"
 
 #: .\templates\pages\index.html:563
-msgid "Your website will <span class=\"fw-bold\">leave a \"wow\" reaction</span>"
-msgstr "Site-ul dvs. web va <span class=\"fw-bold\">lasa o reacție „wow”</span>"
+msgid ""
+"Your website will <span class=\"fw-bold\">leave a \"wow\" reaction</span>"
+msgstr ""
+"Site-ul dvs. web va <span class=\"fw-bold\">lasa o reacție „wow”</span>"
 
 #: .\templates\pages\index.html:570
 msgid "Tailored to your brand"
@@ -966,8 +961,8 @@ msgstr "Amplificator de conversie"
 #: .\templates\pages\index.html:587
 msgid "Your website will <span class=\"fw-bold\"> generate high-quality leads"
 msgstr ""
-"Site-ul dvs. va <span class=\"fw-bold\"> genera clienți potențiali de înaltă"
-" calitate"
+"Site-ul dvs. va <span class=\"fw-bold\"> genera clienți potențiali de înaltă "
+"calitate"
 
 #: .\templates\pages\index.html:594 .\templates\pages\index.html:606
 msgid "MAIL"
@@ -1031,8 +1026,8 @@ msgstr ""
 "pregătită să vă ofere sprijinul de care aveți nevoie și să vă transforme "
 "visele în realitate. Fă primul pas către succes!"
 
-#: .\templates\pages\index.html:751 .\templates\parts\footer.html:17
-#: .\templates\parts\footer.html:18
+#: .\templates\pages\index.html:751 .\templates\parts\footer.html:18
+#: .\templates\parts\footer.html:19
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1845
 msgid "Email address"
 msgstr "Adresa de e-mail"
@@ -1041,52 +1036,35 @@ msgstr "Adresa de e-mail"
 msgid "Phone Number"
 msgstr "Număr de telefon"
 
-#: .\templates\pages\index.html:765
-msgid "Project Title"
-msgstr "Titlul proiectului"
-
-#: .\templates\pages\index.html:768
-msgid "Provide a concise title that accurately describes your project."
-msgstr "Furnizați un titlu concis care să descrie cu acuratețe proiectul dvs."
-
-#: .\templates\pages\index.html:774
+#: .\templates\pages\index.html:775
 msgid "Project Description"
 msgstr "Descrierea proiectului"
 
-#: .\templates\pages\index.html:778
+#: .\templates\pages\index.html:779
 msgid "Enter a detailed description of your project."
 msgstr "Introdu o descriere detaliată a proiectului tău."
 
-#: .\templates\pages\index.html:783
+#: .\templates\pages\index.html:784
 msgid "Examples of similar websites"
 msgstr "Exemple de site-uri similare"
 
-#: .\templates\pages\index.html:787
+#: .\templates\pages\index.html:788
 msgid "Provide examples or links to designs and websites you like."
 msgstr ""
 "Furnizați exemple sau link-uri către design și site-uri web care vă plac."
 
-#: .\templates\pages\index.html:792
-msgid "Expected budget"
-msgstr "Bugetul așteptat"
-
-#: .\templates\pages\index.html:795
-msgid "The planned amount of money to cover project expenses."
-msgstr "Suma de bani planificată pentru acoperirea cheltuielilor proiectului."
-
-#: .\templates\pages\index.html:799
+#: .\templates\pages\index.html:801
 msgid ""
-"By sending this form I confirm that I have read and accept the Privacy "
-"Policy"
+"By sending this form I confirm that I have read and accept the Privacy Policy"
 msgstr ""
 "Prin trimiterea acestui formular confirm că am citit și accept Politica de "
 "confidențialitate"
 
-#: .\templates\pages\index.html:801
+#: .\templates\pages\index.html:803
 msgid "You must agree before submitting."
 msgstr "Trebuie să fiți de acord înainte de a trimite."
 
-#: .\templates\pages\index.html:805
+#: .\templates\pages\index.html:807
 msgid "Submit"
 msgstr "Trimiteți"
 
@@ -1178,15 +1156,19 @@ msgstr "FAQ"
 msgid "Contact us"
 msgstr "Contactaţi-ne"
 
-#: .\templates\parts\footer.html:14
+#: .\templates\parts\footer.html:10
+msgid "Privacy Policy"
+msgstr "Politica de confidențialitate"
+
+#: .\templates\parts\footer.html:15
 msgid "Subscribe to our newsletter"
 msgstr "Abonați-vă la newsletter-ul nostru"
 
-#: .\templates\parts\footer.html:15
+#: .\templates\parts\footer.html:16
 msgid "Monthly digest of what's new and exciting from us."
 msgstr "Rezumat lunar cu ceea ce este nou și interesant de la noi."
 
-#: .\templates\parts\footer.html:19
+#: .\templates\parts\footer.html:20
 msgid "Subscribe"
 msgstr "Abonați-vă"
 
@@ -1253,8 +1235,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:267
 msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or"
-" hyphens."
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:279
@@ -1454,15 +1436,15 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1489
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
-"HH:MM[:ss[.uuuuuu]][TZ] format."
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1497
 #, python-format
 msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD "
-"HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1502
@@ -1481,8 +1463,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1789
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] "
-"[[HH:]MM:]ss[.uuuuuu] format."
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1793
@@ -1637,8 +1619,7 @@ msgid "Many-to-many relationship"
 msgstr ""
 
 #. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the
-#. label
+#. characters will prevent the default label_suffix to be appended to the label
 #: .\venv\Lib\site-packages\django\forms\boundfield.py:184
 msgid ":?.!"
 msgstr ""
@@ -1688,8 +1669,7 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:625
 #, python-format
-msgid ""
-"Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
@@ -1800,8 +1780,7 @@ msgid "The inline value did not match the parent instance."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1429
-msgid ""
-"Select a valid choice. That choice is not one of the available choices."
+msgid "Select a valid choice. That choice is not one of the available choices."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1568
@@ -2264,11 +2243,11 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:127
 msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or"
-" including the “Referrer-Policy: no-referrer” header, please remove them. "
-"The CSRF protection requires the “Referer” header to do strict referer "
-"checking. If you’re concerned about privacy, use alternatives like <a "
-"rel=\"noreferrer\" …> for links to third-party sites."
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:136
@@ -2319,8 +2298,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:652
 #, python-format
 msgid ""
-"Future %(verbose_name_plural)s not available because "
-"%(class_name)s.allow_future is False."
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:692
@@ -2376,10 +2355,10 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
 #, python-format
 msgid ""
-"You are seeing this page because <a "
-"href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
-"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file "
-"and you have not configured any URLs."
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:229
@@ -2501,8 +2480,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\500.html:20
 msgid ""
-"There's been an error. It's been reported to the site administrators via "
-"e-mail and should be fixed shortly. Thanks for your patience."
+"There's been an error. It's been reported to the site administrators via e-"
+"mail and should be fixed shortly. Thanks for your patience."
 msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\actions.html:4
@@ -2717,8 +2696,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\grappelli\templates\admin\delete_confirmation.html:37
 #, python-format
 msgid ""
-"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the"
-" following protected related objects:"
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
 msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\delete_confirmation.html:47
@@ -2831,9 +2810,9 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\invalid_setup.html:16
 msgid ""
-"Something's wrong with your database installation. Make sure the appropriate"
-" database tables have been created, and make sure the database is readable "
-"by the appropriate user."
+"Something's wrong with your database installation. Make sure the appropriate "
+"database tables have been created, and make sure the database is readable by "
+"the appropriate user."
 msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\login.html:26
@@ -2868,8 +2847,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\grappelli\templates\admin\object_history.html:42
 #: .\venv\Lib\site-packages\grappelli\templates\reversion\object_history.html:36
 msgid ""
-"This object doesn't have a change history. It probably wasn't added via this"
-" admin site."
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
 msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\admin\pagination.html:9
@@ -2952,10 +2931,14 @@ msgstr ""
 msgid ""
 "\n"
 "            <p>To install bookmarklets, drag the link to your bookmarks\n"
-"    toolbar, or right-click the link and add it to your bookmarks. Now you can\n"
-"    select the bookmarklet from any page in the site.  Note that some of these\n"
-"    bookmarklets require you to be viewing the site from a computer designated\n"
-"    as \"internal\" (talk to your system administrator if you aren't sure if\n"
+"    toolbar, or right-click the link and add it to your bookmarks. Now you "
+"can\n"
+"    select the bookmarklet from any page in the site.  Note that some of "
+"these\n"
+"    bookmarklets require you to be viewing the site from a computer "
+"designated\n"
+"    as \"internal\" (talk to your system administrator if you aren't sure "
+"if\n"
 "    your computer is \"internal\").</p>\n"
 "        "
 msgstr ""
@@ -3014,8 +2997,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_form.html:18
 msgid ""
-"Please enter your old password, for security's sake, and then enter your new"
-" password twice so we can verify you typed it in correctly."
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
 msgstr ""
 
 #: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_form.html:23
@@ -4187,3 +4170,23 @@ msgstr ""
 #, python-format
 msgid "Invalid date format %(value)s: %(e)s"
 msgstr ""
+
+#~ msgid "Enter your project title here"
+#~ msgstr "Introduceți aici titlul proiectului dvs"
+
+#~ msgid "Enter the estimated budget amount"
+#~ msgstr "Introduceți suma estimată a bugetului"
+
+#~ msgid "Project Title"
+#~ msgstr "Titlul proiectului"
+
+#~ msgid "Provide a concise title that accurately describes your project."
+#~ msgstr ""
+#~ "Furnizați un titlu concis care să descrie cu acuratețe proiectul dvs."
+
+#~ msgid "Expected budget"
+#~ msgstr "Bugetul așteptat"
+
+#~ msgid "The planned amount of money to cover project expenses."
+#~ msgstr ""
+#~ "Suma de bani planificată pentru acoperirea cheltuielilor proiectului."

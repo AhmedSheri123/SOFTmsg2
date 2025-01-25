@@ -16,6 +16,9 @@ def portfolio(request):
 def FAQ(request):
     return render(request, 'pages/faq.html')
 
+def PrivacyPolicy(request):
+    return render(request, 'pages/PrivacyPolicy.html')
+
 def PatientManagement(request):
     return render(request, 'pages/services/PatientManagement.html')
 

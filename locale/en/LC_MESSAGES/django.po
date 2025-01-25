@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-22 07:35+0300\n"
+"POT-Creation-Date: 2025-01-25 11:45+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,10 +30,6 @@ msgstr ""
 msgid "e.g., +1 234 567 890"
 msgstr ""
 
-#: .\pages\forms.py:15
-msgid "Enter your project title here"
-msgstr ""
-
 #: .\pages\forms.py:16
 msgid "How can our team help you?"
 msgstr ""
@@ -42,21 +38,17 @@ msgstr ""
 msgid "https://example.com"
 msgstr ""
 
-#: .\pages\forms.py:18
-msgid "Enter the estimated budget amount"
-msgstr ""
-
 #: .\pages\models.py:7 .\templates\pages\index.html:744
 msgid "Full Name"
 msgstr ""
 
-#: .\pages\views.py:30
+#: .\pages\views.py:33
 msgid ""
 "Your message has been sent successfully. You will be replied after reviewing "
 "the details."
 msgstr ""
 
-#: .\pages\views.py:37
+#: .\pages\views.py:40
 msgid "Your has been subscribed successfully."
 msgstr ""
 
@@ -64,11 +56,11 @@ msgstr ""
 msgid "Launch your professional website with SOFTmsg"
 msgstr ""
 
-#: .\templates\base.html:43
+#: .\templates\base.html:49
 msgid "System"
 msgstr ""
 
-#: .\templates\pages\faq.html:6
+#: .\templates\pages\PrivacyPolicy.html:6 .\templates\pages\faq.html:6
 msgid ""
 "Clear answers to the most frequently asked questions about our services to "
 "help you get information quickly and easily."
@@ -439,7 +431,7 @@ msgid ""
 "level of excellence and digital success."
 msgstr ""
 
-#: .\templates\pages\index.html:22 .\templates\parts\footer.html:10
+#: .\templates\pages\index.html:22 .\templates\parts\footer.html:11
 #: .\templates\parts\navbar.html:62
 msgid "Start your website"
 msgstr ""
@@ -872,8 +864,8 @@ msgid ""
 "first step towards success!"
 msgstr ""
 
-#: .\templates\pages\index.html:751 .\templates\parts\footer.html:17
-#: .\templates\parts\footer.html:18
+#: .\templates\pages\index.html:751 .\templates\parts\footer.html:18
+#: .\templates\parts\footer.html:19
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1845
 msgid "Email address"
 msgstr ""
@@ -882,48 +874,32 @@ msgstr ""
 msgid "Phone Number"
 msgstr ""
 
-#: .\templates\pages\index.html:765
-msgid "Project Title"
-msgstr ""
-
-#: .\templates\pages\index.html:768
-msgid "Provide a concise title that accurately describes your project."
-msgstr ""
-
-#: .\templates\pages\index.html:774
+#: .\templates\pages\index.html:775
 msgid "Project Description"
 msgstr ""
 
-#: .\templates\pages\index.html:778
+#: .\templates\pages\index.html:779
 msgid "Enter a detailed description of your project."
 msgstr ""
 
-#: .\templates\pages\index.html:783
+#: .\templates\pages\index.html:784
 msgid "Examples of similar websites"
 msgstr ""
 
-#: .\templates\pages\index.html:787
+#: .\templates\pages\index.html:788
 msgid "Provide examples or links to designs and websites you like."
 msgstr ""
 
-#: .\templates\pages\index.html:792
-msgid "Expected budget"
-msgstr ""
-
-#: .\templates\pages\index.html:795
-msgid "The planned amount of money to cover project expenses."
-msgstr ""
-
-#: .\templates\pages\index.html:799
+#: .\templates\pages\index.html:801
 msgid ""
 "By sending this form I confirm that I have read and accept the Privacy Policy"
 msgstr ""
 
-#: .\templates\pages\index.html:801
+#: .\templates\pages\index.html:803
 msgid "You must agree before submitting."
 msgstr ""
 
-#: .\templates\pages\index.html:805
+#: .\templates\pages\index.html:807
 msgid "Submit"
 msgstr ""
 
@@ -1012,15 +988,19 @@ msgstr ""
 msgid "Contact us"
 msgstr ""
 
-#: .\templates\parts\footer.html:14
-msgid "Subscribe to our newsletter"
+#: .\templates\parts\footer.html:10
+msgid "Privacy Policy"
 msgstr ""
 
 #: .\templates\parts\footer.html:15
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: .\templates\parts\footer.html:16
 msgid "Monthly digest of what's new and exciting from us."
 msgstr ""
 
-#: .\templates\parts\footer.html:19
+#: .\templates\parts\footer.html:20
 msgid "Subscribe"
 msgstr ""
 
