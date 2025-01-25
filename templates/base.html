@@ -23,6 +23,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     {% block heads %}
     {% endblock heads %}
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11509825034">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11509825034');
+</script>
+
     {% comment %} <script src="https://kit.fontawesome.com/69a53501fd.js" crossorigin="anonymous"></script> {% endcomment %}
   </head>
   <body {% if 'portfolio' in request.path %}data-bs-theme="dark"{% endif %}>
